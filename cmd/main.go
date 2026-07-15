@@ -9,7 +9,7 @@ import (
 
 func main(){
 
-    fmt.Println("Start Server !!")
+    fmt.Println(" Start Application ")
 	app := fiber.New()
 
     app.Get("/", func(c fiber.Ctx) error {
